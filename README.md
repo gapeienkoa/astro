@@ -49,3 +49,15 @@ All commands are run from the root of the project, from a terminal:
 ## 👀 Want to learn more?
 
 Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+
+## Changes
+
+| file                   | Action                                           |
+| :------------------------ | :----------------------------------------------- |
+| `package.json5` | https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin |
+| `tsconfig.json`             | https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin                            |
+| `tsconfig.json`             | https://docs.astro.build/en/guides/typescript/#type-imports      |
+| `tsconfig.json`           | https://docs.astro.build/en/guides/typescript/#import-aliases and https://ui.shadcn.com/docs/installation/astro#edit-tsconfigjson-file          |
+| `src/env.d.ts`         | https://docs.astro.build/en/guides/typescript/#extending-global-types     |
+| `package.json5`       | https://docs.astro.build/en/guides/typescript/#type-checking |
+| `src/layouts/BaseLayout.astro` and `src/pages/index.astro` | https://docs.astro.build/en/basics/astro-pages/#astro-pages => layout components https://docs.astro.build/en/basics/layouts/#importing-layouts-manually-mdx => BaseLayout. Move index.astro to BaseLayout.astro |
