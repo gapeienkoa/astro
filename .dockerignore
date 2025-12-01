@@ -1,0 +1,11 @@
+# https://docs.astro.build/en/recipes/docker/#adding-a-dockerignore
+.DS_Store
+node_modules
+dist
+
+# https://pnpm.io/docker
+node_modules
+.git
+.gitignore
+*.md
+dist
