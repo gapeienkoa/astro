@@ -9,8 +9,8 @@
     "preview": "astro preview",
     "astro": "astro"
   },
+  "//": "https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin",
   "dependencies": {
-    "//": "https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin",
     "@astrojs/ts-plugin": "^1.10.6",
     "astro": "^5.16.3"
   }
