@@ -1,5 +1,19 @@
 {
   "extends": "astro/tsconfigs/strict",
   "include": [".astro/types.d.ts", "**/*"],
-  "exclude": ["dist"]
+  "exclude": ["dist"],
+  "compilerOptions": {
+    /* https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin */
+    "plugins": [{ "name": "@astrojs/ts-plugin" }],
+    /* https://docs.astro.build/en/guides/typescript/#type-imports */
+    "verbatimModuleSyntax": true,
+    /* https://docs.astro.build/en/guides/typescript/#import-aliases */
+    /* https://ui.shadcn.com/docs/installation/astro#edit-tsconfigjson-file */
+    "baseUrl": ".",
+    "paths": {
+      "@/*": [
+        "./src/*"
+      ]
+    }
+  }
 }
