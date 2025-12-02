@@ -16,6 +16,8 @@ pnpm-debug.log*
 # environment variables
 .env
 .env.production
+# https://vite.dev/guide/env-and-mode#env-variables
+*.local
 
 # macOS-specific files
 .DS_Store
