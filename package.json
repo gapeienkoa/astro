@@ -5,9 +5,9 @@
   "private": true,
   "//": {
     "scripts/build": "https://docs.astro.build/en/guides/typescript/#type-checking",
-    "@astrojs/check": "https://docs.astro.build/en/guides/typescript/#type-checking",
-    "@astrojs/ts-plugin": "https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin",
-    "typescript": "https://docs.astro.build/en/guides/typescript/#type-checking"
+    "dependencies/@astrojs/check": "https://docs.astro.build/en/guides/typescript/#type-checking",
+    "dependencies/@astrojs/ts-plugin": "https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin",
+    "dependencies/typescript": "https://docs.astro.build/en/guides/typescript/#type-checking"
   },
   "scripts": {
     "dev": "astro dev",
