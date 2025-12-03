@@ -1,20 +1,11 @@
 # Astro Starter Kit: Minimal
 
 ```sh
-npm create astro@latest -- --template minimal
+pnpm create astro@latest -- --template gapeienkoa/astro
 ```
 
-<!-- ASTRO:REMOVE:START -->
 
-[![Open in StackBlitz](https://developer.stackblitz.com/img/open_in_stackblitz.svg)](https://stackblitz.com/github/withastro/astro/tree/latest/examples/minimal)
-[![Open with CodeSandbox](https://assets.codesandbox.io/github/button-edit-lime.svg)](https://codesandbox.io/p/sandbox/github/withastro/astro/tree/latest/examples/minimal)
-[![Open in GitHub Codespaces](https://github.com/codespaces/badge.svg)](https://codespaces.new/withastro/astro?devcontainer_path=.devcontainer/minimal/devcontainer.json)
-
-<!-- ASTRO:REMOVE:END -->
-
-> 🧑‍🚀 **Seasoned astronaut?** Delete this file. Have fun!
-
-## 🚀 Project Structure
+## Project Structure
 
 Inside of your Astro project, you'll see the following folders and files:
 
@@ -33,31 +24,29 @@ There's nothing special about `src/components/`, but that's where we like to put
 
 Any static assets, like images, can be placed in the `public/` directory.
 
-## 🧞 Commands
+## Commands
 
 All commands are run from the root of the project, from a terminal:
 
 | Command                   | Action                                           |
 | :------------------------ | :----------------------------------------------- |
-| `npm install`             | Installs dependencies                            |
-| `npm run dev`             | Starts local dev server at `localhost:4321`      |
-| `npm run build`           | Build your production site to `./dist/`          |
-| `npm run preview`         | Preview your build locally, before deploying     |
-| `npm run astro ...`       | Run CLI commands like `astro add`, `astro check` |
-| `npm run astro -- --help` | Get help using the Astro CLI                     |
+| `pnpm install`             | Installs dependencies                            |
+| `pnpm dev`             | Starts local dev server at `localhost:4321`      |
+| `pnpm build`           | Build your production site to `./dist/`          |
+| `pnpm preview`         | Preview your build locally, before deploying     |
+| `pnpm astro ...`       | Run CLI commands like `astro add`, `astro check` |
+| `pnpm astro -- --help` | Get help using the Astro CLI                     |
 
-## 👀 Want to learn more?
 
-Feel free to check [our documentation](https://docs.astro.build) or jump into our [Discord server](https://astro.build/chat).
+## Changes manual reproduce and source links
 
-## Changes
-
-| file                   | Action                                           |
-| :------------------------ | :----------------------------------------------- |
-| `package.json5` | https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin |
-| `tsconfig.json`             | https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin                            |
-| `tsconfig.json`             | https://docs.astro.build/en/guides/typescript/#type-imports      |
-| `tsconfig.json`           | https://docs.astro.build/en/guides/typescript/#import-aliases and https://ui.shadcn.com/docs/installation/astro#edit-tsconfigjson-file          |
-| `src/env.d.ts`         | https://docs.astro.build/en/guides/typescript/#extending-global-types     |
-| `package.json5`       | https://docs.astro.build/en/guides/typescript/#type-checking |
-| `src/layouts/BaseLayout.astro` and `src/pages/index.astro` | https://docs.astro.build/en/basics/astro-pages/#astro-pages => layout components https://docs.astro.build/en/basics/layouts/#importing-layouts-manually-mdx => BaseLayout. Move index.astro to BaseLayout.astro |
+| № | Source | Affected files |
+|-|-|-|
+|1|https://docs.astro.build/en/guides/typescript/#typescript-editor-plugin|`tsconfig.json` `package.json`|
+|2|https://docs.astro.build/en/guides/typescript/#type-imports|`tsconfig.json`|
+|3|https://docs.astro.build/en/guides/typescript/#import-aliases and https://ui.shadcn.com/docs/installation/astro#edit-tsconfigjson-file|`tsconfig.json`|
+|4|https://docs.astro.build/en/guides/typescript/#extending-global-types|`src/env.d.ts`|
+|5|https://docs.astro.build/en/guides/typescript/#type-checking|`package.json`|
+|6|https://docs.astro.build/en/guides/dev-toolbar/#per-project|`astro.config.mjs`|
+|7|https://docs.astro.build/en/basics/astro-pages/#astro-pages and https://docs.astro.build/en/basics/layouts/#importing-layouts-manually-mdx|`src/layouts/BaseLayout.astro` `src/pages/index.astro`
+|8|https://github.com/withastro/astro/issues/9525 and https://github.com/withastro/astro/pull/12128|`astro.config.mjs`|
