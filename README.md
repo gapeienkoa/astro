@@ -50,3 +50,6 @@ All commands are run from the root of the project, from a terminal:
 |6|https://docs.astro.build/en/guides/dev-toolbar/#per-project|`astro.config.mjs`|
 |7|https://docs.astro.build/en/basics/astro-pages/#astro-pages and https://docs.astro.build/en/basics/layouts/#importing-layouts-manually-mdx|`src/layouts/BaseLayout.astro` `src/pages/index.astro`
 |8|https://github.com/withastro/astro/issues/9525 and https://github.com/withastro/astro/pull/12128|`astro.config.mjs`|
+|9|https://vite.dev/guide/env-and-mode#env-variables|`.gitignore`|
+|10|https://docs.astro.build/en/recipes/docker/#multi-stage-build-using-ssr and https://pnpm.io/docker|`Dockerfile`|
+|11|https://docs.astro.build/en/recipes/docker/#adding-a-dockerignore and https://pnpm.io/docker|`.dockerignore`|
